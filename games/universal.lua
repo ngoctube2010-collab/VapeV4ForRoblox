@@ -2260,7 +2260,7 @@ run(function()
 		if entitylib.isAlive then
 			local isR15 = entitylib.character.Humanoid.RigType == Enum.HumanoidRigType.R15
 			local anim = Instance.new('Animation')
-			anim.AnimationId = 'rbxassetid://'..(isR15 and '18537363391' or '215384594')
+			anim.AnimationId = 'rbxassetid://'..(isR15 and '91133306449431' or '215384594')
 			animtrack = entitylib.character.Humanoid.Animator:LoadAnimation(anim)
 			animtrack.Priority = Enum.AnimationPriority.Action4
 			animtrack:Play(0, 0.001, 0)
