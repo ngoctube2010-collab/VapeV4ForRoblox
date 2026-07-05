@@ -9,7 +9,7 @@ AutoClicker = vape.Categories.Combat:CreateModule({
 			repeat
 				if Mode.Value == 'Tool' then
 					local tool = getTool()
-					if tool and inputService:IsMouseButtonPressed(0) then
+					if tool then
 						tool:Activate()
 					end
 				else
