@@ -150,7 +150,7 @@ run(function()
 
 				repeat
 					if CircleObject then
-						CircleObject.Position = inputService:GetMouseLocation()
+						CircleObject.Position = screencenter
 					end
 
 					if AutoFire.Enabled then
