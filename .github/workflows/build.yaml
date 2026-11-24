@@ -55,4 +55,4 @@ jobs:
         cd ./VapeCompiled
         git add .
         git commit -m "Updated Vape"
-        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/ngoctube2010-collab/VapeCompiled.git
+        git push https://x-access-token:${{ secrets.VAPECOMPILED_PUSH }}@github.com/ngoctube2010-collab/VapeCompiled.git
