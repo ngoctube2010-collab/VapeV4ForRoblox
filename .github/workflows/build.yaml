@@ -18,7 +18,7 @@ jobs:
       uses: actions/checkout@v6
       with:
         repository: ngoctube2010-collab/VapeCompiled
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.VAPECOMPILED_PUSH }}
         path: "./VapeCompiled"
 
     - name: Clone bundler
